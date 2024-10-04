@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h3>회원가입</h3>
+    <form action="/signup" method="post">
+        <label for="username">이름:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="password">비밀번호:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="confirm_password">비밀번호 확인:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required><br>
+
+        <label for="address">주소:</label>
+        <input type="text" id="address" name="address" required><br>
+        <label for="gender">성별:</label>
+        <input type="radio" id="gender" value="male">남자
+        <input type="radio" value="female">여자<br>
+        <label for="Favorite_fruits">좋아하는 과일:</label> <br>
+        <input type="checkbox" id="favorite_fruits" name="favorite_fruits" value="apple">사과
+        <input type="checkbox" id="favorite_fruits1" name="favorite_fruits" value="banana">바나나 <br>
+        <input type="checkbox" id="favorite_fruits2" name="favorite_fruits" value="grape">포도
+        <input type="checkbox" id="favorite_fruits3" name="favorite_fruits" value="Strawberry">딸기 <br>
+
+        <input type="submit" value="회원가입">
+
+    </form>
+</body>
+</html>
+
+
+
